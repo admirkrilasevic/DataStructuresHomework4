@@ -13,7 +13,7 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		
 		//full-size array initialized instead of 10000 values
-		IPAddress[] ipAddresses = new IPAddress[4637054];
+		IPAddress[] ipAddresses = new IPAddress[4637053];
 		int i = 0;
 		
 		BufferedReader csvReader = new BufferedReader(new FileReader("src/ipaddresses.csv"));
